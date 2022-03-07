@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Layout from '../components/Layout'
 
 export default function Home() {
   return (
@@ -8,8 +9,11 @@ export default function Home() {
     flex h-screen justify-center items-center
     bg-gradient-to-r from-purple-500 to-blue-600
     `}>
+        <Layout titulo="Cadastro Simples">
 
-      <span className='text-4xl'>Texto</span>
+        <span >Conteudo</span>
+        </Layout>
+      
       
     </div>
   )
