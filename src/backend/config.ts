@@ -1,6 +1,6 @@
 //Configuração da inicialização do firebase
 
-import firebase from "firebase";
+import firebase from "firebase"
 import 'firebase/firestore'
 
 if(!firebase.apps.length){
